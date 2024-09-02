@@ -1,0 +1,97 @@
+body{
+    font-family: "Roboto", sans-serif;
+    border: 1px solid lightgray;
+}
+.principal{
+    display: flex;
+}
+.menu{
+    margin: 0;
+    width: 15vw;
+    min-height: 100vh;
+    border-right: 1px solid lightgray;
+}
+
+.contacto_activo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    border-bottom: 1px solid lightgray;
+    overflow: auto;
+}
+.contacto_activo img{
+    margin-left: 10%;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+.contac-globo{
+    color: gray;
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    width: 5vw;    
+}
+.contac-hamburguesa{
+    color: gray;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 5vw;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.descripcion{
+    flex-direction: column;
+}
+.contact img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+.contac_activo{
+    display:flex;
+}
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+    padding: 1%;
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+.chat button{
+    height: 3em;
+    width: 10em;
+    border: solid;
+    color: white;
+    background-color:rgba(231, 164, 231, 0.8);
+    padding: 5px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    flex: 0 0 78%;    
+}
+.texto_principal{
+    width: 480px;
+    text-align: center;
+    gap: 10px;
+}
+.cuerpo img{
+    width: 200px;
+    height: 200px;
+}
